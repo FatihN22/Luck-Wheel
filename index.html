@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Canvas Çark</title>
+</head>
+<body>
+   <div class="container">
+    <div class="text-area">
+        <h3>KARARSIZ MI KALDIN?</h3>
+        <h4>KATILIMCILARI EKLE, OYNA BUTONUNA BAS, KARARI ÇARK VERSİN</h4>
+    </div>
+        <div class="cark-container">
+            <form action="" onsubmit="return false">
+                <input type="text" placeholder="Katılımcı Ekleyin (Maksimum 10 Adet)" id="input">
+               <div class="buttons">
+                <button type="submit" id="add-btn">Ekle &#10149;</button>
+                <button id="clear">Temizle</button>
+               </div>
+            </form>
+            <div class="canvas-area">
+                <div class="dene">
+                    <button id="spin">&#10148;</button>
+                </div>
+                <canvas id="myCanvas" width="500" height="500"></canvas>
+            </div>
+        </div>
+   </div>
+    <script src="script.js"></script>
+</body>
+</html>
